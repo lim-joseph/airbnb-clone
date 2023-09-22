@@ -85,3 +85,26 @@ header .links {
 .vert-line {
 	border-left: 1.5px solid var(--seperator);
 }
+
+/* caroussel */
+
+.caroussel {
+	padding-top: 2.5em;
+}
+
+.caroussel .flex {
+	justify-content: space-evenly;
+	flex: 1;
+}
+
+.caroussel .filter {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 0.3em;
+}
+
+.caroussel .bold {
+	font-size: 0.7em;
+	color: rgba(0, 0, 0, 0.5);
+}
