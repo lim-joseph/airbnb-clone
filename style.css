@@ -1,0 +1,69 @@
+/* colors */
+:root {
+	--seperator: rgba(0, 0, 0, 0.1);
+}
+
+/* general */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style-type: none;
+}
+
+/* reusable */
+.flex {
+	display: flex;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+
+/* header */
+header {
+	padding: 1em 0;
+	border-bottom: 1.3px solid var(--seperator);
+}
+
+header .container {
+	justify-content: space-between;
+}
+
+header .container,
+.right {
+	align-items: center;
+}
+
+header .links {
+	gap: 1em;
+}
+
+.left,
+.right,
+.center {
+	flex: 1;
+}
+
+.right {
+	justify-content: right;
+}
+
+.center {
+	justify-content: center;
+}
+
+.dropdown {
+	border: 1.3px solid var(--seperator);
+	border-radius: 2em;
+	padding: 0.75em 0.5em;
+}
