@@ -37,6 +37,10 @@ li {
 	font-weight: 600;
 }
 
+.underline {
+	under
+}
+
 /* header */
 header {
 	padding: 0.8em 0;
@@ -87,24 +91,90 @@ header .links {
 }
 
 /* caroussel */
-
-.caroussel {
+.filter-bar {
 	padding-top: 2.5em;
-}
-
-.caroussel .flex {
 	justify-content: space-evenly;
-	flex: 1;
+	gap: 1em;
 }
 
 .caroussel .filter {
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	gap: 0.3em;
+}
+
+.caroussel.flex {
+	justify-content: space-between;
+	gap: 2em;
 }
 
 .caroussel .bold {
 	font-size: 0.7em;
 	color: rgba(0, 0, 0, 0.5);
+}
+
+.filter-button {
+	align-items: center;
+	border: 1.3px solid var(--seperator);
+	border-radius: 0.85em;
+	flex: 0;
+	padding: 0 1em;
+}
+
+.filter-button .flex {
+	gap: 0.5em;
+}
+
+.filter-button a {
+	font-weight: 600;
+	font-size: 0.7em;
+}
+
+/* Places Grid */
+.places-grid {
+	margin-top: 2em;
+}
+
+.places-grid .flex {
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	row-gap: 2.5em;
+}
+
+.place-info {
+	padding-top: 0.7em;
+	justify-content: space-between;
+}
+
+.place-info li {
+	font-size: 1.1em;
+	padding: 0.2em 0;
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: 500;
+}
+
+.place-info .location {
+	font-weight: 600;
+}
+
+.place img {
+	max-width: 23em;
+	border-radius: 1em;
+	height: auto;
+}
+
+.place-info .left {
+	flex: 2;
+}
+
+.place-info .right {
+	justify-content: right;
+}
+
+.place-info .price {
+	padding-top: 0.5em;
+}
+
+.place-info .right img {
+	max-width: 1.5em;
+	max-height: 1.2em;
 }
