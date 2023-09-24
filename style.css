@@ -54,7 +54,7 @@ hr {
 
 /* header */
 header {
-	padding: 0.8em 0;
+	padding: 1rem 0;
 	border-bottom: 1.3px solid var(--seperator);
 }
 
@@ -165,7 +165,7 @@ header .left img {
 
 /* Places Grid */
 .places-grid {
-	padding-top: 11rem;
+	padding-top: 11.5rem;
 }
 
 .places-grid .flex {
