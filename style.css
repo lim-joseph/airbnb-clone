@@ -210,8 +210,9 @@ header .links {
 	max-height: 1rem;
 }
 
-.right-container {
+.right-container.flex {
 	align-items: center;
+	gap: 0.1rem;
 }
 /* show more */
 .show-more {
