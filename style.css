@@ -29,10 +29,9 @@ li {
 }
 
 .container {
-	max-width: 1800px;
 	margin: 0 auto;
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 4.5%;
+	margin-right: 4.5%;
 }
 
 .bold {
@@ -43,6 +42,14 @@ hr {
 	background-color: rgba(0, 0, 0, 0.1);
 	height: 1px;
 	border: none;
+}
+
+/* fixed top part */
+.ontop {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* header */
@@ -74,6 +81,10 @@ header .links {
 	justify-content: right;
 }
 
+header .left img {
+	max-width: 7rem;
+}
+
 .center {
 	justify-content: center;
 }
@@ -100,7 +111,7 @@ header .links {
 
 /* caroussel */
 .filter-bar {
-	padding-top: 2.1rem;
+	padding: 1.3rem 0;
 	justify-content: space-between;
 	gap: 2rem;
 }
@@ -154,7 +165,7 @@ header .links {
 
 /* Places Grid */
 .places-grid {
-	margin-top: 2rem;
+	padding-top: 11rem;
 }
 
 .places-grid .flex {
@@ -203,6 +214,7 @@ header .links {
 
 .place-info .price {
 	padding-top: 0.5rem;
+	color: black;
 }
 
 .place-info .right img {
