@@ -16,7 +16,7 @@ li {
 	text-decoration: none;
 	color: inherit;
 	font-family: "Montserrat", sans-serif;
-	font-size: 0.8em;
+	font-size: 0.8rem;
 }
 
 li {
@@ -61,7 +61,7 @@ header .container,
 }
 
 header .links {
-	gap: 1em;
+	gap: 1rem;
 }
 
 .left,
@@ -81,12 +81,12 @@ header .links {
 .dropdown,
 .center .links {
 	border: 1.3px solid var(--seperator);
-	border-radius: 2em;
-	padding: 0.3em 0.3em 0.1em 0.3em;
+	border-radius: 2rem;
+	padding: 0.3em 0.3em 0.1em 0.3rem;
 }
 
 .center .links {
-	padding: 0.2em 0.4em 0.2em 1.5em;
+	padding: 0.2em 0.4em 0.2em 1.5rem;
 	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -96,9 +96,9 @@ header .links {
 
 /* caroussel */
 .filter-bar {
-	padding-top: 2.5em;
-	justify-content: space-evenly;
-	gap: 1em;
+	padding-top: 2.5rem;
+	justify-content: space-between;
+	gap: 2rem;
 }
 
 .caroussel .filter {
@@ -108,61 +108,71 @@ header .links {
 
 .caroussel.flex {
 	justify-content: space-between;
-	gap: 2em;
+	gap: 1.9rem;
+}
+
+.filter a {
+	text-align: center;
 }
 
 .caroussel .bold {
-	font-size: 0.7em;
+	font-size: 0.7rem;
 	color: rgba(0, 0, 0, 0.5);
 }
 
 .filter-button {
 	align-items: center;
 	border: 1.3px solid var(--seperator);
-	border-radius: 0.85em;
+	border-radius: 0.85rem;
 	flex: 0;
-	padding: 0 1em;
+	padding: 0 1rem;
 }
 
 .filter-button .flex {
-	gap: 0.5em;
+	gap: 0.5rem;
 }
 
 .filter-button a {
 	font-weight: 600;
-	font-size: 0.7em;
+	font-size: 0.7rem;
 }
 
 /* Places Grid */
 .places-grid {
-	margin-top: 2em;
+	margin-top: 2rem;
 }
 
 .places-grid .flex {
-	justify-content: space-evenly;
+	justify-content: space-between;
 	flex-wrap: wrap;
-	row-gap: 2.5em;
+	row-gap: 2.5rem;
 }
 
 .place-info {
-	padding-top: 0.7em;
+	padding-top: 0.7rem;
 	justify-content: space-between;
 }
 
-.place-info li {
-	font-size: 1.1em;
+.place-info li,
+.place-info p {
+	font-size: 0.9rem;
 	padding: 0.2em 0;
 	color: rgba(0, 0, 0, 0.7);
 	font-weight: 500;
 }
 
+.place-info p {
+	color: black;
+}
+
 .place-info .location {
 	font-weight: 600;
+	color: black;
 }
 
 .place img {
-	max-width: 23em;
-	border-radius: 1em;
+	max-width: 18rem;
+	border-radius: 0.75rem;
 	height: auto;
 }
 
@@ -175,17 +185,17 @@ header .links {
 }
 
 .place-info .price {
-	padding-top: 0.5em;
+	padding-top: 0.5rem;
 }
 
 .place-info .right img {
-	max-width: 1.5em;
-	max-height: 1.2em;
+	max-width: 1.4rem;
+	max-height: 1.2rem;
 }
 
 /* show more */
 .show-more {
-	row-gap: 1em;
+	row-gap: 1rem;
 	padding: 3em 0;
 	flex-direction: column;
 	justify-content: center;
@@ -193,15 +203,15 @@ header .links {
 }
 
 .show-more p {
-	font-size: 0.8em;
+	font-size: 0.8rem;
 }
 
 .show-more a {
-	font-size: 0.8em;
+	font-size: 0.8rem;
 	color: white;
 	background-color: black;
-	padding: 0.9em 1.6em;
-	border-radius: 0.5em;
+	padding: 0.9em 1.6rem;
+	border-radius: 0.5rem;
 }
 
 /* before footer */
@@ -214,12 +224,12 @@ footer,
 
 .before-footer .container {
 	flex-direction: column;
-	row-gap: 1.7em;
+	row-gap: 1.7rem;
 }
 
 .footer-options {
-	font-size: 1em;
-	gap: 1.5em;
+	font-size: 1rem;
+	gap: 1.5rem;
 }
 
 .footer-options li {
@@ -227,7 +237,7 @@ footer,
 }
 
 .footer-title {
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 /* before footer locations */
@@ -236,12 +246,12 @@ footer,
 }
 
 .footer-locations p {
-	font-size: 1em;
+	font-size: 1rem;
 }
 
 .footer-locations ul {
 	flex-direction: column;
-	row-gap: 1.5em;
+	row-gap: 1.5rem;
 }
 
 .locations-subtitle {
@@ -265,11 +275,11 @@ footer .container,
 
 .bottom-footer-cols .flex {
 	flex-direction: column;
-	gap: 0.8em;
+	gap: 0.8rem;
 }
 
 .bottom-footer-cols a {
-	font-size: 0.65em;
+	font-size: 0.65rem;
 }
 
 /* bottom of bottom footer*/
