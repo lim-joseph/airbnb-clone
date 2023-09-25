@@ -12,7 +12,10 @@
 
 a,
 p,
-li {
+li,
+h1,
+h2,
+h3 {
 	text-decoration: none;
 	color: inherit;
 	font-family: "Montserrat", sans-serif;
@@ -79,6 +82,7 @@ header .links {
 
 .right {
 	justify-content: right;
+	color: rgba(0, 0, 0, 0.8);
 }
 
 header .left img {
@@ -309,7 +313,10 @@ footer,
 footer .container,
 .fr-bottom .container {
 	padding: 2em 0;
-	padding-bottom: 0;
+}
+
+.pleasefixthepadding {
+	padding-bottom: 0 !important;
 }
 
 .bottom-footer-cols {
@@ -329,6 +336,7 @@ footer .container,
 .fr-bottom .flex {
 	padding: 1rem 0;
 	padding-bottom: 0 !important;
+	padding-top: 0.5rem;
 }
 
 .fr-bottom .left,
@@ -347,10 +355,100 @@ footer .container,
 	align-items: center;
 }
 
+.fr-bottom .container {
+	padding-bottom: 0rem;
+}
+
 .fr-bottom {
-	padding-bottom: 1rem;
+	padding: 1rem 0;
+}
+
+.fr-bottom hr {
+	padding-top: 0;
 }
 
 .socials img {
 	max-width: 6rem;
+}
+
+/* HOUSE PAGE */
+/* header */
+.container.house {
+	margin: 0 auto;
+	margin: 0 17%;
+}
+
+.center.house {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.center.house .links {
+	gap: 7.5rem;
+}
+
+/* hero */
+
+.hero .left .flex,
+.hero .right .flex,
+.hero .left,
+.hero .right,
+.hero .subtitle,
+.hero .right .li {
+	align-items: center;
+}
+
+.hero {
+	padding-top: 1.5rem;
+}
+
+.hero h1 {
+	font-size: 1.5rem;
+}
+
+.hero .subtitle {
+	justify-content: space-between;
+	padding-top: 0.7rem;
+}
+
+.hero .subtitle .left a,
+.hero .right p {
+	border-bottom: 1.5px solid black;
+}
+
+.hero .left {
+	gap: 0.5rem;
+	flex: 2;
+}
+
+.hero .left .rating img {
+	max-width: 1.3rem;
+}
+
+.hero .left .endorsement {
+	gap: 0.3rem;
+}
+
+.hero .left .endorsement img {
+	max-width: 0.7rem;
+}
+
+.hero .right {
+	gap: 1rem;
+}
+
+.hero .right img {
+	max-width: 1rem;
+}
+
+.hero .right li a {
+	gap: 0.5rem;
+}
+
+/* hero pictures */
+.hero-pictures {
+	padding-top: 2rem;
+}
+
+.hero-pictures .right {
+	flex-wrap: wrap;
 }
