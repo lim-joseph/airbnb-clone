@@ -74,13 +74,13 @@ header .links {
 	gap: 1rem;
 }
 
-.left,
-.right,
-.center {
+header .left,
+header .right,
+header .center {
 	flex: 1;
 }
 
-.right {
+header .right {
 	justify-content: right;
 	color: rgba(0, 0, 0, 0.8);
 }
@@ -388,12 +388,12 @@ footer .container,
 
 /* hero */
 
-.hero .left .flex,
-.hero .right .flex,
-.hero .left,
-.hero .right,
-.hero .subtitle,
-.hero .right .li {
+.title-block .left .flex,
+.title-block .right .flex,
+.title-block .left,
+.title-block .right,
+.title-block .subtitle,
+.title-block .right .li {
 	align-items: center;
 }
 
@@ -401,54 +401,91 @@ footer .container,
 	padding-top: 1.5rem;
 }
 
-.hero h1 {
+.title-block h1 {
 	font-size: 1.5rem;
 }
 
-.hero .subtitle {
+.title-block .subtitle {
 	justify-content: space-between;
 	padding-top: 0.7rem;
 }
 
-.hero .subtitle .left a,
-.hero .right p {
+.title-block .subtitle .left a,
+.title-block .right p {
 	border-bottom: 1.5px solid black;
 }
 
-.hero .left {
+.title-block .left {
 	gap: 0.5rem;
 	flex: 2;
 }
 
-.hero .left .rating img {
+.title-block .left .rating img {
 	max-width: 1.3rem;
 }
 
-.hero .left .endorsement {
+.title-block .left .endorsement {
 	gap: 0.3rem;
 }
 
-.hero .left .endorsement img {
+.title-block .left .endorsement img {
 	max-width: 0.7rem;
 }
 
-.hero .right {
+.title-block .right {
 	gap: 1rem;
 }
 
-.hero .right img {
+.title-block .right img {
 	max-width: 1rem;
 }
 
-.hero .right li a {
+.title-block .right li a {
 	gap: 0.5rem;
 }
 
 /* hero pictures */
 .hero-pictures {
-	padding-top: 2rem;
+	padding-top: 1.5rem;
+	gap: 0.5rem;
+}
+
+.hero-pictures .left,
+.hero-pictures .right {
+	gap: 0.5rem;
+	align-items: flex-start;
+	max-width: 50%;
+	max-height: 32rem;
+	overflow: hidden;
+}
+
+.hero-pictures .left {
+	border-top-left-radius: 0.7rem;
+	border-bottom-left-radius: 0.7rem;
 }
 
 .hero-pictures .right {
+	border-top-right-radius: 1rem;
+	border-bottom-right-radius: 1rem;
 	flex-wrap: wrap;
+}
+
+.left .img-box {
+	max-width: 50%;
+	justify-content: center;
+}
+
+.right .img-box {
+	max-width: 49%;
+	max-height: 50%;
+	overflow: hidden;
+	justify-content: center;
+}
+
+.hero-pictures .left .img-box img {
+	height: 35rem;
+}
+
+.hero-pictures .right .img-box img {
+	height: 20rem;
 }
