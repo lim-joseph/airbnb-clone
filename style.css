@@ -494,6 +494,12 @@ footer .container,
 }
 
 /* hero info general styling */
+.hero-info {
+	justify-content: space-between;
+	padding-top: 3rem;
+	gap: 2rem;
+}
+
 .hero-info p {
 	font-size: 0.9rem;
 }
@@ -505,7 +511,6 @@ footer .container,
 /* hero info title block*/
 .main-left {
 	max-width: 60%;
-	padding-top: 3rem;
 }
 
 .hero-info h2 {
@@ -538,10 +543,79 @@ footer .container,
 }
 
 .hero-info .info-block .info .description {
-	font-size: 0.8rem;
+	font-size: 0.85rem;
 	color: rgba(0, 0, 0, 0.7);
 }
 
+.info-para {
+	padding-bottom: 1rem;
+}
+
 .info-para p {
-	padding-bottom: 0.9rem;
+	padding-bottom: 1.3rem;
+	line-height: 1.3rem;
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.info-para a {
+	font-size: 0.9rem;
+}
+
+.info-para span {
+	border-bottom: 1.5px solid black;
+}
+
+/* bed grid */
+.rooms {
+	padding-bottom: 1rem;
+}
+
+.rooms h2 {
+	padding-top: 1rem;
+}
+
+.rooms .boxes {
+	justify-content: space-between;
+	padding-top: 1.5rem;
+	gap: 1rem;
+}
+
+.boxes li {
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.8rem;
+	padding: 1.5rem;
+	flex: 1;
+}
+
+.boxes a,
+.boxes div {
+	flex-direction: column;
+}
+
+.boxes a {
+	gap: 1.3rem;
+}
+
+.boxes div {
+	gap: 0.6rem;
+}
+
+.boxes .subtitle {
+	font-size: 0.8rem;
+}
+
+/* right side of hero-info */
+.hero-info .right {
+	padding: 2rem 0 0 2rem;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.hero-info .card {
+	padding: 1.5rem;
+	outline: 1px solid black;
+	border-radius: 0.7rem;
+	flex-direction: column;
+	gap: 0.5rem;
 }
