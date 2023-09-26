@@ -359,6 +359,10 @@ footer .container,
 	padding-bottom: 0rem;
 }
 
+.fr-bottom .container div {
+	justify-content: space-between;
+}
+
 .fr-bottom {
 	padding: 1rem 0;
 }
@@ -476,16 +480,68 @@ footer .container,
 }
 
 .right .img-box {
-	max-width: 49%;
+	max-width: 49.2%;
 	max-height: 50%;
 	overflow: hidden;
-	justify-content: center;
 }
 
 .hero-pictures .left .img-box img {
-	height: 35rem;
+	height: 32rem;
 }
 
 .hero-pictures .right .img-box img {
-	height: 20rem;
+	height: 16rem;
+}
+
+/* hero info general styling */
+.hero-info p {
+	font-size: 0.9rem;
+}
+
+.hero-info .bold {
+	font-weight: 600;
+}
+
+/* hero info title block*/
+.main-left {
+	max-width: 60%;
+	padding-top: 3rem;
+}
+
+.hero-info h2 {
+	font-size: 1.3rem;
+}
+
+.hero-info hr {
+	margin: 1.8rem 0;
+}
+
+.amenities {
+	padding-top: 0.5rem;
+	gap: 0.3rem;
+	font-weight: 500;
+}
+
+/* hero info sub-info */
+.hero-info .info-block {
+	flex-direction: column;
+	row-gap: 1.5rem;
+}
+
+.hero-info .info-block li {
+	gap: 2rem;
+}
+
+.hero-info .info-block .info {
+	gap: 0.4rem;
+	flex-direction: column;
+}
+
+.hero-info .info-block .info .description {
+	font-size: 0.8rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.info-para p {
+	padding-bottom: 0.9rem;
 }
