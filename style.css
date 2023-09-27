@@ -380,7 +380,7 @@ footer .container,
 .container.house,
 footer .container.house {
 	margin: 0 auto;
-	margin: 0 17%;
+	margin: 0 19%;
 }
 
 .center.house {
@@ -522,6 +522,10 @@ footer .container.house {
 	margin: 1.8rem 0;
 }
 
+.hero-info .main-left hr {
+	margin-top: 1rem;
+}
+
 .amenities {
 	padding-top: 0.5rem;
 	gap: 0.3rem;
@@ -532,6 +536,7 @@ footer .container.house {
 .hero-info .info-block {
 	flex-direction: column;
 	row-gap: 1.5rem;
+	padding-bottom: 1rem;
 }
 
 .hero-info .info-block li {
@@ -611,16 +616,16 @@ footer .container.house {
 	padding-bottom: 2rem;
 	padding-left: 3.5rem;
 	flex-direction: column;
-	gap: 2rem;
+	gap: 1.5rem;
 }
 
 .hero-info .card {
 	padding: 1.5rem;
-	border: 0.5px solid rgba(0, 0, 0, 0.2);
+	border: 0.5px solid rgba(0, 0, 0, 0.15);
 	border-radius: 0.7rem;
 	flex-direction: column;
 	gap: 0.5rem;
-	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 15px 2px rgba(0, 0, 0, 0.1);
 }
 
 .hero-info .card h2 {
@@ -762,12 +767,45 @@ footer .container.house {
 }
 
 /* report */
-.report a {
+.right .report {
 	justify-content: center;
-	gap: 0.5rem;
-	color: rgba(0, 0, 0, 0.6);
+	align-items: center;
 }
 
-.report p {
+.right .report a {
+	gap: 1rem;
+	color: rgba(0, 0, 0, 0.6);
+	align-items: center;
+}
+
+.right .report p {
 	font-size: 0.8rem;
+}
+
+/* fixing images for house page */
+.pfp-image {
+	width: 3.7rem;
+}
+
+.info-block img {
+	width: 1.5rem;
+	height: min-content;
+}
+
+.boxes img {
+	width: 2rem;
+	height: min-content;
+}
+
+.interesting {
+	width: 4rem !important;
+	height: min-content;
+}
+
+.arrow {
+	width: 1rem;
+}
+
+.report-img {
+	width: 1rem;
 }
