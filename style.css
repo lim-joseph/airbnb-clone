@@ -377,7 +377,8 @@ footer .container,
 
 /* HOUSE PAGE */
 /* header */
-.container.house {
+.container.house,
+footer .container.house {
 	margin: 0 auto;
 	margin: 0 17%;
 }
