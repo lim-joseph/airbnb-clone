@@ -607,15 +607,166 @@ footer .container,
 
 /* right side of hero-info */
 .hero-info .right {
-	padding: 2rem 0 0 2rem;
+	padding-bottom: 2rem;
+	padding-left: 3.5rem;
 	flex-direction: column;
 	gap: 2rem;
 }
 
 .hero-info .card {
 	padding: 1.5rem;
-	outline: 1px solid black;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
 	border-radius: 0.7rem;
 	flex-direction: column;
 	gap: 0.5rem;
+	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero-info .card h2 {
+	font-weight: 500;
+	font-size: 1rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-info .card span {
+	font-size: 1.3rem;
+	color: black;
+}
+/* Rating block */
+.card .rating-block {
+	gap: 0.2rem;
+	align-items: center;
+	padding-bottom: 1rem;
+}
+
+.card .rating-block p {
+	font-size: 0.8rem;
+}
+
+.card .rating-block img {
+	width: 1.2rem;
+}
+
+/* Date block */
+.date-block {
+	flex-wrap: wrap;
+	border-radius: 0.5rem;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+.date-block a {
+	padding: 0.8rem;
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
+	gap: 0.2rem;
+	flex-direction: column;
+}
+
+.date-block p {
+	font-size: 0.8rem;
+}
+
+.date-block p.bold {
+	font-size: 0.6rem;
+}
+
+.date-block .check-in,
+.date-block .checkout {
+	flex: 2;
+	width: 50%;
+	overflow: hidden;
+}
+
+.date-block .guests {
+	min-width: 100%;
+}
+
+.date-block .check-in {
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.date-block .checkout {
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 0;
+}
+
+.date-block .guests {
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+/* Reserve button */
+.reserve {
+	text-align: center;
+	background-image: linear-gradient(to right, #e61e4d, #d70566);
+	padding: 1rem 0;
+	border-radius: 0.5rem;
+	color: white;
+	font-size: 0.9rem;
+	margin: 0.4rem 0 0 0;
+}
+
+.card .details-1,
+.card .details-2 {
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.card .details-1 {
+	padding-top: 0.5rem;
+}
+
+.card .details-2 {
+	padding-bottom: 1rem;
+	flex-direction: column;
+}
+
+/* pricing */
+.fees {
+	row-gap: 1.25rem;
+	flex-direction: column;
+}
+
+.fees li {
+	justify-content: space-between;
+}
+
+.fees p {
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.fees .discount {
+	color: #159646;
+}
+
+.card hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+/* total cost */
+.card .total {
+	justify-content: space-between;
+}
+
+.card .total p {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+/* report */
+.report a {
+	justify-content: center;
+	gap: 0.5rem;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.report p {
+	font-size: 0.8rem;
 }
