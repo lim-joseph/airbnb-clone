@@ -1,3 +1,6 @@
 # airbnb-clone
 
-no more web dev rust
+no more rust
+
+![Screenshot](img/readme/index_readme.png)
+![Screenshot](img/readme/house_readme.png)
