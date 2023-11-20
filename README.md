@@ -1,6 +1,6 @@
 # airbnb-clone
 
-Airbnb HTML + CSS website clone
+Basic Airbnb HTML + CSS website clone
 
 [👉 Live Demo](https://mocchu.github.io/airbnb-clone/)
 
