@@ -207,6 +207,10 @@ header .left img {
 	height: auto;
 }
 
+.place img:hover {
+	opacity: 0.9;
+}
+
 .place-info .left {
 	flex: 2;
 }
